@@ -4,3 +4,5 @@
 n + nn + nnn, где n не перемножаются, а конкатенируются
 
 */
+let a = 3;
+console.log(a + +(a + String(a)) + +(a + String(a) + String(a)));
